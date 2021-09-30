@@ -9,7 +9,7 @@ class BubbleSort{
 		{
 		a[i]=sc.nextInt();
 		}
-		bubbleSort(a,n);
+		bubble(a,n);
 		printArray(a,n);
 	}
 		  public static void printArray(int a[], int n)
@@ -21,7 +21,7 @@ class BubbleSort{
     }
 	
 	
-	 public static void bubbleSort(int a[], int n)
+	 public static void bubble(int a[], int n)
 	 {
 		for(int i=0;i<n-1;i++){
 			for(int j=0;j<n-i-1;j++)
