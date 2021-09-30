@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class InsertionSort{
+class Insertionsort{
 	public static void main(String...args){
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
@@ -10,10 +10,10 @@ class InsertionSort{
 		{
 			a[i]=sc.nextInt();
 		}
-		inser(a);
+		insert(a);
 		print(a);
 	}
-		public static void inser(int[] a)
+		public static void insert(int[] a)
 		{
 			int n=a.length;
 			for(int i=1;i<n;i++)
